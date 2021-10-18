@@ -1,3 +1,3 @@
 # facebookMaven
-This is an example of famework for newbies. You can find basics of Selenium, TestNG, and Maven. 
-Create your Page Objects models and create new @Test cases to test the framework.
+This is a framework example for newbies. You can find basics of Selenium, TestNG, and Maven. 
+Create your Page Objects models and new @Test cases to test the framework.
