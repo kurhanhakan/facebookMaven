@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24765" started-at="2021-10-18T15:40:21 EDT" finished-at="2021-10-18T15:40:46 EDT">
+    <groups>
+      <group name="smoke">
+        <method signature="Login.validLogin(java.lang.String, java.lang.String)[pri:0, instance:com.facebook.testcases.Login@543c6f6d]" name="validLogin" class="com.facebook.testcases.Login"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="24765" started-at="2021-10-18T15:40:21 EDT" finished-at="2021-10-18T15:40:46 EDT">
+      <class name="com.facebook.testcases.Login">
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.facebook.testcases.Login@543c6f6d]" name="generateReport" is-config="true" duration-ms="477" started-at="2021-10-18T15:40:21 EDT" finished-at="2021-10-18T15:40:22 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.testcases.Login@543c6f6d]" name="setUp" is-config="true" duration-ms="4683" started-at="2021-10-18T15:40:22 EDT" finished-at="2021-10-18T15:40:26 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validLogin(java.lang.String, java.lang.String)[pri:0, instance:com.facebook.testcases.Login@543c6f6d]" name="validLogin" duration-ms="656" started-at="2021-10-18T15:40:26 EDT" data-provider="userInfo" finished-at="2021-10-18T15:40:27 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[johnDoe@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.facebook.testcases.Login@543c6f6d]" name="tearDown" is-config="true" duration-ms="133" started-at="2021-10-18T15:40:45 EDT" finished-at="2021-10-18T15:40:45 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="writeReport()[pri:0, instance:com.facebook.testcases.Login@543c6f6d]" name="writeReport" is-config="true" duration-ms="543" started-at="2021-10-18T15:40:45 EDT" finished-at="2021-10-18T15:40:46 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeReport -->
+      </class> <!-- com.facebook.testcases.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
